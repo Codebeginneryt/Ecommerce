@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                items: 4,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                }
+            })
+        })
+    </script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-relative py-4">
+        <div class="container-fluid">
+          <a class="navbar-brand position-absolute top-0 start-50 translate-middle-x py-4" href="#"><img src="image/logo.webp" alt=""></a>
+          <div class="position-absolute top-0 end-0 py-4 me-3 ">
+            <a class="mx-md-3 h4 text-dark" href=""><i class="fa-solid fa-location-dot"></i></a>
+                <a class="mx-md-3 h4 text-dark" href=""><i class="fa-solid fa-user"></i></i></a>
+                <a class="mx-md-3 h4 text-dark" href=""><i class="fa-solid fa-heart"></i></a>
+                <a class="mx-md-3 h4 text-dark" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          </div>
+          <div class="position-absolute top-0 start-0 py-4 ms-3 d-none d-md-block">
+            <a class="nav-link active h4 text-dark" aria-current="page" href="#"><i
+                    class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-3 mt-md-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-block d-md-none">
+                <li class="nav-item">
+                    <a class="nav-link active-h " aria-current="page" href="#">Kurtas & Kurti Set</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Sarees</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Gown</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Salwar Kameez</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Ghagras</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Bridal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Bottom's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">New Arrivals</a>
+                </li>
+            </ul>
+        </div>
+    </div>  
+      </nav>
+      <nav class="d-md-flex justify-content-evenly custom-top-margin d-none font-monospace text-uppercase">
+        <a class="nav-link active text-dark " aria-current="page" href="kurti.html">Kurtas & Kurti Set</a>
+        <a class="nav-link active text-dark " aria-current="page" href="sarees.html">Sarees</a>
+        <a class="nav-link active text-dark " aria-current="page" href="#">Gown</a>
+        <a class="nav-link active text-dark " aria-current="page" href="ghagras.html">Ghagras</a>
+        <a class="nav-link active text-dark " aria-current="page" href="salwar kameez.html">Salwar Kameez</a>
+        <a class="nav-link active text-dark " aria-current="page" href="#">Bridal</a>
+        <a class="nav-link active text-dark " aria-current="page" href="#">Bottom's</a>
+        <a class="nav-link active text-dark " aria-current="page" href="#">Sale</a>
+        <a class="nav-link active text-dark " aria-current="page" href="#">New Arrivals</a>
+    </nav>
+    <div class="container-fluid">
+        <div class="row bg-dark mt-3 py-2">
+            <div class="col-12 text-white text-center">
+                <span>FREE SHIPPING</span>
+                <span>on all domestic orders</span>
+            </div>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="image/banner1.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="image/banner2.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="image/banner3.webp" alt="">
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row my-3 my-md-4">
+            <div class="col-12 col-md-6 my-2 my-md-0">
+                <img src="image/B_-_1_1_720x.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-12 col-md-6 my-2 my-md-0">
+                <img src="image/B_-_2_720x.webp" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 text-center">
+                <span class="heading font-monospace">SHOP BY CATEGORY</span>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-6 col-md-3 my-2 my-md-0 position-relative">
+                <div class="overflow-hidden">
+                    <img src="image/img1.webp" class="img-fluid img-hover" alt="">
+                </div>
+                <span class="bg-white w-75 position-absolute top-50 start-50 translate-middle px-1 py-2 text-uppercase text-center">DRAPES OF ELEGANCE</span>
+            </div>
+            <div class="col-6 col-md-3 my-2 my-md-0 position-relative">
+                <div class="overflow-hidden">
+                    <img src="image/img2.webp" class="img-fluid img-hover" alt="">
+                </div>
+                <span class="bg-white w-75 position-absolute top-50 start-50 translate-middle px-1 py-2 text-uppercase text-center">TRENDIEST STYLE</span>
+            </div>
+            <div class="col-6 col-md-3 my-2 my-md-0 position-relative">
+                <div class="overflow-hidden">
+                    <img src="image/img1.webp" class="img-fluid img-hover" alt="">
+                </div>
+                <span class="bg-white w-75 position-absolute top-50 start-50 translate-middle px-1 py-2 text-uppercase text-center">EXQUISITE LEHENGAS FOR EVERY OCCASION</span>
+            </div>
+            <div class="col-6 col-md-3 my-2 my-md-0 position-relative">
+                <div class="overflow-hidden">
+                    <img src="image/img2.webp" class="img-fluid img-hover" alt="">
+                </div>
+                <span class="bg-white w-75 position-absolute top-50 start-50 translate-middle px-1 py-2 text-uppercase text-center">SALWAR SUITS THAT SUIT YOU</span>
+            </div>
+        </div>
+        <div class="row my-5 justify-content-center">
+            <div class="col-12 col-md-11">
+                <img src="image/1296x810.webp" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+</body>
+</html>
